@@ -37,3 +37,51 @@ p{
   font-variant:small-caps ;
 
 }
+
+/*8. Unit #############################################
+#########    Absolute unit
+px (1inch = 96px)
+pt(1 inch = 72pt)
+Pc(1pc = 12pt
+############## Relative unit in CSS
+em= em is related to the size of ots direct parent
+Rem = rem is only relative to root (html tag) size
+Vh =  1% of view port height
+Vw = 1% of view port width
+% = relative to parent
+
+*/
+
+#parent {
+border: 2px solid palevioletred;
+font-size: 30px;
+width: 50vw;
+height: 50%;
+
+}
+#child{
+border: 2px solid blue;
+font-size: 0.5em; /* .5em = 50% smaller than 30px size in parent id*/
+width: 25vw;
+
+}
+
+/*
+9. CSS Cursor ################################
+*/
+#cursor{
+    border: 2px solid yellowgreen;
+    cursor: zoom-in;
+}
+
+/*
+10. Box Shadow ################################
+*/
+#Shadow{
+    border: 1px solid red;
+    width: 30rem;
+    background-color: yellowgreen;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 10px 15px 10px 3px burlywood inset, 10px 15px 10px 3px red;
+}
