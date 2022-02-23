@@ -1,0 +1,126 @@
+/*
+htmlcolorcodes.com/color-names 
+multi line comment
+*/
+
+/*Display the size of the body*/
+body{
+    border: 1px solid red;
+}
+
+/*1.BACKGROUND .....................................
+# represent the id selection = #ID_Name */
+            
+#background {
+    background-color: rgba(200, 130, 100, 0.1);
+    background-image: url("../images/Aboutpopular.jpg");
+    background-repeat: no-repeat;
+    background-position: 5%, 10%;
+    background-size: contain;
+    background-attachment: fixed;
+/* We can use background in a line in this format
+background : background-color background-image background-repeat background-attachment background-position
+*/
+} 
+/*2.BORDER............................................
+# represent the id selection = #ID_Name */
+#border {
+    border-style: solid dashed inset dotted ;
+    border-width: 5px 10px 25px 10px;
+    border-color: red yellow brown blue;
+
+    /*Create curve in the edge of the radius */
+    border-radius: 10px 20px 30px 10px;
+
+    /*for particular layer = top */
+    border-top-style: solid;
+    border-top-width: 15px;
+    border-top-color: green;
+    border-top-left-radius: 10px
+
+} 
+/*3.HEIGHT AND WIDTH............................................
+# represent the id selection = #ID_Name */ 
+#height_width {
+background-color:salmon ;
+height:300px;
+width:70% ;
+max-width: 500px;
+min-width: 100px;
+max-height: 300px;
+min-height: 100px;
+} 
+
+/*4.PADDING............................................
+Space in between border and content*/ 
+#padding{
+   border: 1px solid yellowgreen; 
+ /*
+   padding-top: 50px;
+   padding-bottom: 20px;
+   padding-right: 10%;
+   padding-left: 50px;
+   */
+   padding: 5% 5% 10% 15% ;
+}
+
+/*5.MARGIN............................................
+outside of the border and the space 
+between two or morethan two elements */ 
+
+.margin{
+    border: 4px dotted black;
+}
+#margin1{
+    border: 2px solid blueviolet;
+    margin: 25px 12px 40px 60px;
+}
+#margin2{
+    border: 2px inset deeppink;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 15px;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+}
+
+#margin3{
+    border: 2px inset palegreen;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+/*5.BOX MODEL..........TEXT.................................
+box contain Margin,border, padding, content  */ 
+#text{
+    border: 3px solid black;
+    color: purple;
+    text-align:unset;
+    direction: ltf;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-indent: 30px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    white-space:pre-wrap;
+    word-wrap: break-word;
+}
+img{
+    border: 1px solid red;
+    vertical-align: bottom;
+}
+#shadow{
+    font-size: 50px;
+    text-shadow: 5px 10px 6px red;
+    writing-mode: vertical-rl;
+
+
+}
+
+

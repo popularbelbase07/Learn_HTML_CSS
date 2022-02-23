@@ -1,0 +1,39 @@
+/* 
+6. Link decoration .........................
+*/
+a{
+    text-decoration: none;
+    font-size: 3rem;
+}
+a:link{
+color: yellowgreen;
+}
+a:visited{
+color: black;
+}
+a:hover{
+color: orange;
+}
+a:active{
+    color: red; 
+}
+
+/* 
+7. Font Implimentation .......
+google font using morethan two fonts..................
+*/
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: cadetblue;
+    font-weight: 200;
+    direction: ltr;
+
+}
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;  
+  font-weight: bold;
+  font-style: italic;
+  font-variant:small-caps ;
+
+}
