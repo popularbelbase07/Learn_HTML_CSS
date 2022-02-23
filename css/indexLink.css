@@ -85,3 +85,20 @@ width: 25vw;
     padding: 20px;
     box-shadow: 10px 15px 10px 3px burlywood inset, 10px 15px 10px 3px red;
 }
+
+/*
+11. Opacity ################################
+*/
+#Opacity{
+    background-color: aqua;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    opacity: .5;
+
+}
+img{
+    height: 200px;
+    width: 300px;
+    opacity:1;
+}
