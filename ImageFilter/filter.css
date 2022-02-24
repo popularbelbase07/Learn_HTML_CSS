@@ -1,0 +1,51 @@
+#img{
+    height: 300px;
+    width: 300px;
+    filter: brightness(50%);
+    filter: contrast(75%);
+    /* create animation and */
+    filter: drop-shadow(8px 5px 8px red )
+}
+
+#filt{
+    border-radius: 4px solid green;
+    background-color: yellow;    
+    height: 400px;
+    width: 400px;  
+    margin: -310px 500px;
+}
+h1{
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:slateblue;
+}
+#photo{
+height: 300px;
+width: 300px;
+filter: grayscale(75%);
+
+}
+
+#hue{
+    height: 300px;
+    width: 300px;
+    filter: hue-rotate(90deg);
+    margin: 200px 0px;
+}
+
+#invert{
+    height: 300px;
+    width: 300px;
+    filter: invert(80%);
+   
+    }
+
+#sprite{
+    height: 500px;
+    width: 335px;
+   background-image: url("../images/sprite.png");
+   background-repeat: no-repeat;
+  
+
+}

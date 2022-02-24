@@ -102,3 +102,13 @@ img{
     width: 300px;
     opacity:1;
 }
+#Opacity2{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    opacity:.4 ;
+    margin: -220px 800px;
+}
+#opacity2:hover{
+    color: red;
+}
