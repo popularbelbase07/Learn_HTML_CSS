@@ -1,0 +1,54 @@
+ul{
+list-style-type: decimal-leading-zero;
+/*list-style-image: url("../images/SMS.png") ;*/
+list-style-position: inside;
+
+}
+
+ol{
+    list-style-type: lower-roman;
+
+}
+
+li{
+    border: 1ox solid crimson;
+}
+
+h1{
+    border: 1px dotted darkorchid;
+    text-decoration: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    empty-cells: hide;
+    table-layout: auto;
+    width: 100%;
+    
+}
+
+tr{
+    border-radius: 5px;
+/* tr does not contains  border: 1px solid black;*/
+
+}
+th{
+    border: 1px solid black;
+    height: 30px;
+    padding: 15px;
+    vertical-align: bottom;
+}
+td{
+    border: 1px solid black; 
+    height: 25px;
+    padding: 15px;
+    vertical-align: top;
+}
+

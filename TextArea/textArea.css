@@ -1,0 +1,27 @@
+#resize-both{
+    background-color: whitesmoke;
+    border: 2px solid red;
+    height: 300px;
+    width: 250px;
+    overflow: auto;
+    resize: both;
+
+}
+#horizontal{
+    background-color: whitesmoke;
+    border: 2px solid blue;
+    height: 300px;
+    width: 250px;
+    overflow: auto;
+    resize: horizontal;
+
+}
+#vertical textarea{
+    background-color: whitesmoke;
+    border: 2px solid green;
+    height: 300px;
+    width: 250px;
+    overflow: scroll;
+    resize: vertical;
+
+}

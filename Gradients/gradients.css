@@ -9,5 +9,7 @@
 #radial{
     height: 400px;
     border: 2px solid crimson; 
-    background-image: radial-gradient(circle, red,yellow,blue,green);
+   /* background-image: radial-gradient(circle, red,yellow,blue,green);*/
+   background-image: radial-gradient(circle, green 20%, blue 30%, red 50%);
+   
 }
