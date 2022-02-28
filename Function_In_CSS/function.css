@@ -1,0 +1,25 @@
+/* define variable for css
+- It is usefull for website that occurs to the change by the times*/
+:root{
+    --primary-color:teal;
+    --btn-color:blueviolet;
+    --text-color:white;
+
+}
+
+#function{
+
+    background-color: var(--primary-color);
+    height: 200px;
+    width: calc(100% - 200px);
+}
+a{
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    text-decoration: none;
+
+     
+
+}
