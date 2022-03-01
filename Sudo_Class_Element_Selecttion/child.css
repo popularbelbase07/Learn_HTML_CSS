@@ -1,0 +1,35 @@
+/* sudo class helps to dynamically change the color of the elements*/
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(3){
+color: purple;
+}
+li:nth-child(even){
+    color: yellow;
+    }
+
+    /*Sudo Element : we can see in newspaper*/
+
+    p::first-letter{
+        font-size: 2rem;
+        color: red;
+    }
+    p::first-line{
+        font-size: 2rem;
+        color: red;
+    }
+    h1::after{
+        content: url("../images/SMS.png");
+    }
+
+    /* :: Universal selector*/
+    ::selection{
+        color: red;
+        background: yellowgreen;
+
+    }
+    

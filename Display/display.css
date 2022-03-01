@@ -1,0 +1,44 @@
+/*block elements: div , all heading(H) forms
+inline elements: a,img,span 
+inline block:  
+
+#block
+1. start from new line
+2. it covers full space
+3. height and width can be apply
+
+#inline
+1. Not new start
+2. No full width(It covers only the space what is necessory)
+3. no height and width
+
+#inline-block
+1. Not new start
+2. No full width(It covers only the space what is necessory)
+3. height and width
+*/
+
+.display{
+    border: 2px solid yellowgreen;
+    height: 200px;
+    width: 300px;
+    /*display: inline;*/
+    display: inline-block ;
+}
+/* hide the content using css*/
+#div1{
+    /*display: none; /* It does not cover the space*/
+    visibility: hidden /* It does cover the space*/
+}
+
+/* Position
+1. static (default) - normal flow of website without manipulating anything
+2. relative
+3. fixed
+4. absolute
+
+1. top
+2. button
+3. :left
+4.right
+*/
