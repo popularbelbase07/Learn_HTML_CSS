@@ -1,0 +1,26 @@
+img{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+
+}
+#img1{
+float:right
+}
+#img2{
+float:left
+}
+
+/*create nav bar for an website*/
+ul{
+    background-color: red;
+    list-style-type: none;
+   /* border: 1px solid yellow;*/
+    overflow: auto;
+
+}
+li{
+    color:white;
+    padding:10px 20px;
+    float: left;
+}
