@@ -24,3 +24,33 @@ li{
     padding:10px 20px;
     float: left;
 }
+p{
+    border: 1px solid red;
+   overflow: auto;
+
+}
+img{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+/*Using clear*/
+#content{
+background-color: yellowgreen;
+float: left;
+width: 70%;
+height: 200px;
+
+}
+#sidebar{
+    background-color: tomato;
+    float: left;
+    width: 30%;
+    height: 150px;
+    
+}
+#footer{
+    background-color: silver;
+    float: left;
+    clear: both ;
+    }
