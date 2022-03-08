@@ -1,0 +1,50 @@
+#cover
+{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+
+}
+#content
+{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+   /* transform: perspective(300px) rotate3d(0, 50, 50, 30deg);*/
+   transform: perspective(300px) translate3d(0px, 0px, -50px); 
+}
+
+/*Transition*/
+#div{
+   background-color: blueviolet;
+   height: 200px;
+   width :200px;
+   margin:100px;
+   transition-timing-function: ease-in-out;
+  /* transition: height, width;
+   transition-duration: 1s;
+   
+   */
+   /*transition: property, duration, timing-function, delay;*/
+   transition: width 2s, height 3s;
+   
+}
+#div:hover{
+    width: 400px;
+    height: 400px;
+}
+
+#div2{
+    background-color: blueviolet;
+    height: 200px;
+    width :200px;
+    margin:100px;
+    transition: background-color;
+    transition-delay:200ms;
+   transition-duration: 1s;
+  
+ }
+ #div2:hover{
+     background-color: yellow;
+ }
